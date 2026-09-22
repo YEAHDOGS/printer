@@ -20,7 +20,7 @@
 
 <svelte:head>
   <title>Printer — by DOGS</title>
-  <meta name="description" content="The printer, reinvented. No tracking watermarks, no spyware, ink by the gallon, no drivers, native on every device." />
+  <meta name="description" content="Printers by DOGS. No tracking, no spyware, ink by the gallon — from desktop to door-sized posters." />
 </svelte:head>
 
 <!-- reusable ink-drop backdrop -->
@@ -144,6 +144,66 @@
       <h2 class="rv d1">SILENT.<br />ANY <em>COLOR.</em></h2>
       <p class="sub rv d2">Silent models. <b>Custom colors.</b></p>
       <p class="sub rv d3">A printer that looks like <b>it belongs to you.</b></p>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="panel" id="why" aria-label="Built for people">
+    {@render inkdrop("why")}
+    <div class="scrim"></div>
+    <div class="wrap">
+      <p class="kicker rv">06 &middot; Why</p>
+      <h2 class="rv d1">BUILT FOR<br /><em>PEOPLE.</em></h2>
+      <p class="sub rv d2">Printers that work for you.</p>
+      <p class="sub rv d3">Not the <b>other way around.</b></p>
+    </div>
+  </section>
+
+  <!-- POSTER -->
+  <section class="panel" id="poster" aria-label="Poster model, the advanced printer">
+    {@render inkdrop("poster")}
+    <div class="scrim"></div>
+    <div class="wrap">
+      <p class="kicker rv">07 &middot; Poster &mdash; the advanced model</p>
+      <h2 class="rv d1">DOOR-SIZED<br /><em>POSTERS.</em></h2>
+      <p class="sub rv d2">Feed it big paper. Hang it on the door.</p>
+      <p class="sub rv d3">Cardboard too. About <b>$1,000.</b></p>
+    </div>
+  </section>
+
+  <!-- LABELS -->
+  <section class="panel" id="labels" aria-label="Bottle label printer">
+    {@render inkdrop("labels")}
+    <div class="scrim"></div>
+    <div class="wrap">
+      <p class="kicker rv">08 &middot; Labels</p>
+      <h2 class="rv d1">BOTTLE<br /><em>LABELS.</em></h2>
+      <p class="sub rv d2">Design it. <b>Print it.</b></p>
+      <p class="sub rv d3">Stick it on the bottle.</p>
+    </div>
+  </section>
+
+  <!-- STICKERS -->
+  <section class="panel" id="stickers" aria-label="Sticker printer">
+    {@render inkdrop("stickers")}
+    <div class="scrim"></div>
+    <div class="wrap">
+      <p class="kicker rv">09 &middot; Stickers</p>
+      <h2 class="rv d1"><em>STICKERS.</em></h2>
+      <p class="sub rv d2">Any shape. <b>Any size.</b></p>
+      <p class="sub rv d3">Peel and stick.</p>
+    </div>
+  </section>
+
+  <!-- 3D -->
+  <section class="panel" id="three-d" aria-label="3D printer, in the lab">
+    {@render inkdrop("threed")}
+    <div class="scrim"></div>
+    <div class="wrap">
+      <p class="kicker rv">10 &middot; 3D &mdash; in the lab</p>
+      <h2 class="rv d1">IN THE<br /><em>LAB.</em></h2>
+      <p class="sub rv d2">The technology has a long way to go.</p>
+      <p class="sub rv d3">We&rsquo;re <b>going anyway.</b></p>
     </div>
   </section>
 
